@@ -20,7 +20,7 @@ public class IQ_16_3_Intersection {
 		/* If the lines are parallel, they intercept only if they have the same y
 		 * intercept and start 2 is on line 1. */
 		if (line1.slope == line2.slope) {
-			if (line.yintercept == line2.yintercept &&
+			if (line1.yintercept == line2.yintercept &&
 					isBetween(start1, start2, end1)) {
 				return start2;
 			}
