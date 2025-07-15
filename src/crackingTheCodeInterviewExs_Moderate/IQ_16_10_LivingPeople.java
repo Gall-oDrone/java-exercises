@@ -34,7 +34,7 @@ public class IQ_16_10_LivingPeople {
 	}
 	
 	// Slightly Better Brute Force
-	int maxAliveYarBF_2(Person[] people, int min, int max) {
+	int maxAliveYear_BF_2(Person[] people, int min, int max) {
 		int[] years = createYearMap(people, min, max);
 		int best = getMaxIndex(years);
 		return best + min;
@@ -61,7 +61,7 @@ public class IQ_16_10_LivingPeople {
 		int max = 0;
 		for (int i = 1; i < values.length; i++) {
 			if (values[i] > values[max]) {
-				max = 1;
+				max = i;
 			}
 		}
 		return max;
@@ -70,7 +70,7 @@ public class IQ_16_10_LivingPeople {
 	// Optimal Solution
 	int maxAliveYar_Optimal(Person[] people, int min, int max) {
 		int[] births = getSortedYears(people, true);
-		int[] deaths = getSortedYears(people, true);
+		int[] deaths = getSortedYears(people, false);
 		
 		int birthIndex = 0;
 		int deathIndex = 0;
