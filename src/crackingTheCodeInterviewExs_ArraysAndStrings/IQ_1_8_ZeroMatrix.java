@@ -1,4 +1,4 @@
-package crackingTheCodeInterviewExs;
+package crackingTheCodeInterviewExs_ArraysAndStrings;
 
 import java.util.Random;
 

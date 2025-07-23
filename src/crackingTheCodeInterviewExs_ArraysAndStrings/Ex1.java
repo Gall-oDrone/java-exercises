@@ -1,4 +1,4 @@
-package crackingTheCodeInterviewExs;
+package crackingTheCodeInterviewExs_ArraysAndStrings;
 /* Asume characters are ASCII 128 unique characters
  256 extended unique characters 
  */

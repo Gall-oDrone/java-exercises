@@ -1,4 +1,4 @@
-package crackingTheCodeInterviewExs;
+package crackingTheCodeInterviewExs_ArraysAndStrings;
 
 public class IQ_1_6_StringCompression {
 

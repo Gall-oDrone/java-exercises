@@ -1,8 +1,8 @@
-package crackingTheCodeInterviewExs;
+package crackingTheCodeInterviewExs_ArraysAndStrings;
 import java.util.ArrayList;
 import java.util.List;
 
-import crackingTheCodeInterviewExs.IQ_1_2_CheckPermutation;
+import crackingTheCodeInterviewExs_ArraysAndStrings.IQ_1_2_CheckPermutation;
 public class IQ_1_4_PalindromePermuation {
 
 	public static void main(String[] args) {
